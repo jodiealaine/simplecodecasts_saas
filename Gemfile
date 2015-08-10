@@ -36,6 +36,9 @@ gem 'stripe', '~> 1.23.0'
 # Use figaro to hide secret keys
 gem 'figaro', '~> 1.1.1'
 
+# Use paper clip for file attachment library for Active Record
+gem "paperclip", "~> 4.3"
+
 group :development, :test do
 
 	# Use sqlite3 as the database for Active Record
